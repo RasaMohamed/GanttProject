@@ -461,7 +461,7 @@ public class TaskRendererImpl2 extends ChartRendererBase {
     if (myModel.getBaseline() != null) {
       rowHeight = rowHeight + 8;
     }
-    return rowHeight;
+    return rowHeight+20;
   }
 
   private int getRectangleHeight() {
